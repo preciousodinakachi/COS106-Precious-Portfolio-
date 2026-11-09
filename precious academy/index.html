@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>precious iwuozor portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--This head section contains the title and menu-->
+    <header>
+        <h1>Precious Iwuozor portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#planner">Academic Planner</a></li>
+
+        </nav>
+
+        <a href="https://www.linkedin.com/in/iwuozorprecious/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+        </a>
+
+    </header>
+    ```
+    <hr />
+
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="precious.jpg.jpg" alt="my picture">
+
+
+                </a>
+                <div class=" about-text">
+                    <p>I am Precious Odinakachi Iwuozor, a B.sc, Cybersecurity student at Miva Open
+                        University with a strong interest in cloud computing, cloud engineering,
+                        and Cybersecurity.
+                    </p>
+
+                    <P>My academic journey is driven by curiosity, determination, and a desire to understand
+                        how techology can solve real-world problems.
+                    </P>
+
+                    <p>My academic vision is to become a skilled cloud and cybersecurity professional who can
+                        design, implement, and secure reliable technology solution.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <hr />
+
+        <section id="projects">
+            <h2>My Project</h2>
+            <div class="gallery">
+                <img src="p1.png" alt="Project Documentation">
+                <img src="mfa1.png" alt="Project Documentation">
+                <img src="FIRE WALL OVERVIEW.jpg" alt="Project Documetation">
+            </div class="project-card">
+            <h3>Azure Virtual Network (Vnet) Peering</h3>
+            <p>This project demostrates how to establish
+                private connectivity between two
+                Azure Virtual networks using Vnet Peering.
+                It includes the configuration of virtual networks,
+                Linux virtual machines, and connectivity testing
+            </p>
+
+            <a href="Azure Virtual Network Peering.pdf" target="_blank" class="project-btn">
+                View Project Documentation
+            </a>
+
+            <div class="project-card">
+
+
+                <h3>Microsoft 365 User Onboarding and Configuration</h3>
+                <p>
+                    This project demonstrates how to create and secure
+                    a Microsoft 365 user account using a custom domain.
+                    It covers user provisioning, license assignment,
+                    administrative role configuration, multifactor
+                    authentication (MFA), password reset, and sign-in
+                    verification.
+                </p>
+
+                <a href="m365 user onbording configuration3.pdf" target="_blank" class="project-btn">
+                    View Project Documentation</a>
+
+                </a>
+
+            </div>
+            <div class="project-card">
+
+                <h3>Deploying and Configuring Azure Firewall with Threat Protection</h3>
+                <p>This project demonstrates the deployment and
+                    configuration of Azure Firewall to secure cloud
+                    network resources. It covers network infrastructure
+                    setup, NAT rules, application rules, network rules,
+                    and threat intelligence protection.
+                </p>
+                <a href="firewall and threat configuration.pdf" target="_blank" class="project-btn">
+                    View Project Documentation
+                </a>
+            </div>
+
+        </section>
+
+        <hr />
+
+
+        <section id="academic-planner">
+
+            <h2>My Academic Planner</h2>
+
+            <p class="planner-intro">
+                I keep track of my academic tasks,
+                assignments, and deadlines below.
+            </p>
+
+            <form id="planner-form">
+
+                <input type="text" id="task-name" placeholder="Enter task or assignment" required>
+
+                <input type="text" id="course-name" placeholder="Enter course name" required>
+
+                <input type="date" id="due-date" required>
+
+                <button type="submit">add task</button>
+
+            </form>
+
+
+            <ul id="task-list"></ul>
+
+        </section>
+
+        <hr>
+
+        <section id="cirtifications">
+            <h2>My Cirtifications</h2>
+            <div class="gallery">
+
+                <img src="AZ-900.png" image 1">
+                <img src="AZ-104.png" image 2">
+                <img src="SC-900.png" image 3">
+            </div>
+
+        </section>
+
+        <hr />
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="myForm" action="">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name"> <br />
+                <p id="nameError" class="error"></p>
+
+                <label for="Email">Email: </label>
+                <input type="email" id="email" name="email"> <br />
+                <p id="emailError" class="error"></p>
+
+                <label for="massage">Massage: </label>
+                <textarea name="massage" id="massage" cols="40" rows="10"></textarea>
+                <p id="massageError" class="error"></p>
+
+                <br />
+                <input type="submit" value="Send">
+
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr />
+
+    <button id="backToTop" title="Back to Top">
+        ↑ Back to Top
+    </button>
+
+    <hr>
+
+    <footer>
+        <p>Contact me at <a href="#">hello.cloudandbeyond@gmail.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
